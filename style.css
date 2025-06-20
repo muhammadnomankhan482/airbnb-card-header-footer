@@ -1,0 +1,188 @@
+
+body{
+    padding: 0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    
+
+}
+
+div,img,h4{
+    display: inline-block;
+    /* display: flex; */
+    
+
+}
+img{
+    width: 50px;
+    height: 50px;
+
+}
+
+
+header{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    
+}
+
+
+
+/* header2 */
+#headertwo{
+    display: flex;
+    flex-direction: row;
+    height: 90px;
+    width: 800px;
+    background-color: cornsilk;
+    margin-bottom: 80px;
+    border-radius: 50px;
+    justify-content: space-around;
+}
+
+#headertwo :hover{
+    cursor: pointer;
+    transform: scale(1.03);
+    transition: all is ease;
+}
+
+
+
+
+
+
+#container{
+    /* height: 1000px; */
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+    background-color: cornsilk;
+}
+
+.box{
+    background-color: aqua;
+    width: 200px;
+    height: 200px;
+    border-radius: 20px;
+    justify-content: space-between;
+    padding: 10px;
+
+}
+
+
+.box :hover{
+    cursor: pointer;
+    transform: scale(1.03);
+    transition: all is ease;
+}
+
+.guest{
+    background-color: white;
+    width: 130px;
+    height: 30px;
+    border-radius: 15px;
+    /* justify-content: center; */
+    text-align: center;
+}
+
+.heart{
+    padding-left: 50px;
+}
+
+.in{
+    margin-top: 200px;
+}
+
+#boxone{
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTHQ8lI4J60vZuRFdFCmt7TOyhfDE4-Gue2MiHQJ100eVBci2e4CEkOLTx1FQ8pr6Q11H4&usqp=CAU);
+    background-size: cover;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+
+#boxtwo{
+    background-image: url(https://cf.bstatic.com/xdata/images/hotel/max1024x768/462130813.jpg?k=f15d564ba306de7d616bb9ebc2093cf5b2b77488179b2045dc2489158c9eeab1&o=&hp=1);
+    background-size: cover;
+    display: flex;
+    justify-content: space-between;
+  
+}
+
+
+#boxthree{
+    background-image: url(https://cf.bstatic.com/xdata/images/hotel/max1024x768/584886969.jpg?k=3be8c036d406c0d8ea22eebf693d1846826d664cd29eefe34aba1e592570411b&o=&hp=1);
+    background-size: cover;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+#boxfour{
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR8gKApY4lnaOlH1pVxbNgABxC4bEFF_MsTwQ&s);
+    background-size: cover;
+    display: flex;
+    justify-content: space-between;
+}
+
+#boxfive{
+    background-image: url(https://cf.bstatic.com/xdata/images/hotel/max1024x768/597532972.jpg?k=1101668a2fb6838f9d318f69fac619380905b690c7136a40322c701df16c8c39&o=&hp=1);
+    background-size: cover;
+    display: flex;
+    justify-content: space-between;
+}
+
+#boxsix{
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSYQjtizUTPHCcaHYbVr1Zn85KBx5hxxPKIFg&s);
+    background-size: cover;
+    display: flex;
+    justify-content: space-between;
+}
+
+#boxseven{
+    background-image: url(https://cf.bstatic.com/xdata/images/hotel/max1024x768/305435973.jpg?k=6752c13f255c74b621bcc84e8f344e45acd507b74cf1cb89ce1d1afa86b4f792&o=&hp=1);
+    background-size: cover;
+    display: flex;
+    justify-content: space-between;
+}
+
+#boxeight{
+    background-image: url(https://cf.bstatic.com/xdata/images/hotel/max1024x768/547975800.jpg?k=d931f528bb44e90287a27b497562a012bc72105ce79509c43f387f69b5c73e0a&o=&hp=1);
+    background-size: cover;
+    display: flex;
+    justify-content: space-between;
+}
+
+#boxnine{
+    background-image: url(https://q-xx.bstatic.com/xdata/images/hotel/max500/428097042.jpg?k=139bd12e101e4fb69ed3b4b208199c7418944e90014ab6aef6c8b530ebf07914&o=);
+    background-size: cover;
+    display: flex;
+    justify-content: space-between;
+}
+
+#boxten{
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSgydGun3oqq8P-g6AdX37TW1CS6GLSE0genQ&s);
+    background-size: cover;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+.footer{
+    margin-top: 50px;
+    padding-top: 100px;
+    width: 1265px;
+    height: 400px;
+    display: flex;
+    gap: 300px;
+    justify-content: center;
+    background-color: black;
+    color: white;
+}
