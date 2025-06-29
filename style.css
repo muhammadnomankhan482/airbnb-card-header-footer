@@ -143,28 +143,35 @@ h1 :hover{
     color: white;
 } 
 
-@media (min-width:481px) and (max-width:767px) {
+@media (min-width:375px) and (max-width:450px){
     .two{
     margin-left: 0px;
-    height: 40px;
-    font-size: 14px;
+    height: 30px;
+    font-size: 11px;
+    }
+    h2,h4{
+        margin-top: -18px;
+        font-size: 18px;
+        margin-left: 20px;
     }
     h1{
-        top: 220px;
+        top: 230px;
         font-size: 20px;
+        
     }
     .container{
         margin-top: 60px;
+        justify-content: center;
     }
     .listing-card{
-    width: 200px;
+    width: 250px;
     height: 230px;
     }
     .listing-card img{
     height: 140px;
-    width: 200px;
+    width: 250px;
     }
     .footer{
-    gap: 60px;
+    gap: 10px;
     } 
 } 
