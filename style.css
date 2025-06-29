@@ -1,3 +1,6 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
 
 header{
     top: 0px;
@@ -31,7 +34,7 @@ h4{
 }
 
 .two{
-    margin-left: 100px;
+    margin-left: 190px;
     height: 80px;
     width: 600px;
     background-color: rgb(225, 219, 219);
@@ -112,7 +115,8 @@ h1 :hover{
 }
 
 .card-contant h3{
-    font-size: 18px;
+    font-size: 16px;
+    margin-top: -10px;
 }
 
 .card-contant p{
@@ -137,4 +141,30 @@ h1 :hover{
     justify-content: center;
     background-color: black;
     color: white;
+} 
+
+@media (min-width:481px) and (max-width:767px) {
+    .two{
+    margin-left: 0px;
+    height: 40px;
+    font-size: 14px;
+    }
+    h1{
+        top: 220px;
+        font-size: 20px;
+    }
+    .container{
+        margin-top: 60px;
+    }
+    .listing-card{
+    width: 200px;
+    height: 230px;
+    }
+    .listing-card img{
+    height: 140px;
+    width: 200px;
+    }
+    .footer{
+    gap: 60px;
+    } 
 } 
