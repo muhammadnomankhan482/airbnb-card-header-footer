@@ -143,6 +143,14 @@ h1 :hover{
     color: white;
 } 
 
+@media (max-width: 768px){
+   .two{
+    margin-left: 30px;
+    margin-top: 20px;
+   }
+}
+
+
 @media (min-width:250px) and (max-width:450px){
 
     header{
