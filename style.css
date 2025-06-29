@@ -177,12 +177,12 @@ h1 :hover{
         justify-content: center;
     }
     .listing-card{
-    width: 300px;
+    width: 350px;
     height: 250px;
     }
     .listing-card img{
     height: 160px;
-    width: 300px;
+    width: 350px;
     }
     .footer{
     gap: 10px;
