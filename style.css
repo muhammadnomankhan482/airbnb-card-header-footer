@@ -3,7 +3,6 @@ body{
 }
 
 header{
-    top: 0px;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
@@ -12,8 +11,6 @@ header{
 }
 header :hover{
     cursor: pointer;
-    transform: translateY(-5px);
-
 }
 ul{
     display: flex;
@@ -26,15 +23,14 @@ ul{
     height: 40px;
 }
 
-div,h4{
-    display: inline-block;
-}
-h4{
-    font-size: 25px;
+.icons{
+    display: flex;
+    gap: 30px;
 }
 
+
 .two{
-    margin-left: 190px;
+    text-align: center;
     height: 80px;
     width: 600px;
     background-color: rgb(225, 219, 219);
@@ -48,38 +44,30 @@ h4{
 }
 
 
+.h-1{
+    position: relative;
+    width: 100vw;
+}
+
 h1{
     position: absolute;
-    top: 200px;
-    left: 40px;
-}
-h1 :hover{
-    transform: translateY(-5px);
-
 }
 
 .container{
     display: flex;
     flex-wrap: wrap;
     gap: 20px;
-    margin-top: 100px;
+    margin-top: 70px;
 }
 
 .listing-card{
     background-color: rgb(225, 219, 219);
     width: 228px;
-    background-size: cover;
     border-radius: 16px;
     overflow: hidden;
-    transition: all is ease;
-    transform: scale(0.2s);
     position: relative;
 }
 
-
-.listing-card :hover{
-    transform: translateY(-5px);
-}
 .listing-card img{
     height: 200px;
     width: 228px;
@@ -94,7 +82,6 @@ h1 :hover{
     font-size: 12px;
     font-weight: 600;
     border-radius: 12px;
-
 }
 
 .favorite{
@@ -128,9 +115,6 @@ h1 :hover{
     font-weight: bolder;
 }
 
-
-
-
 .footer{
     margin-top: 50px;
     padding-top: 100px;
@@ -145,7 +129,6 @@ h1 :hover{
 
 @media (max-width: 768px){
    .two{
-    margin-left: 30px;
     margin-top: 20px;
    }
 }
@@ -162,15 +145,9 @@ h1 :hover{
     height: 30px;
     font-size: 11px;
     }
-    h2,h4{
-        margin-top: -18px;
-        font-size: 18px;
-        margin-left: 20px;
-    }
+    
     h1{
-        top: 230px;
         font-size: 20px;
-        left: 20px;
     }
     .container{
         margin-top: 60px;
