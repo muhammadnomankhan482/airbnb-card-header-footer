@@ -135,7 +135,7 @@ h1{
 
 
 @media (min-width:250px) and (max-width:450px){
-
+    
     header{
     justify-content: center;
     margin-left: 0px;
@@ -164,4 +164,4 @@ h1{
     .footer{
     gap: 10px;
     } 
-} 
+}
